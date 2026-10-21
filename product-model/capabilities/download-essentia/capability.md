@@ -1,0 +1,22 @@
+---
+availability:
+- place: desktop
+references:
+- kind: code
+  role: implementation
+  target: backend/src/tauri_commands.rs
+- kind: code
+  role: implementation
+  target: backend/src/service/settings.rs
+- kind: code
+  role: implementation
+  target: vanilla-ui/components/settings/events.mjs
+- kind: spec
+  role: intent
+  target: docs/LIBRARY_ANALYSIS.md
+domain: analysis
+---
+
+# Download Essentia
+
+Download and install the optional Essentia engine files from Analysis settings.
